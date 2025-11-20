@@ -1,6 +1,6 @@
 # Futuro do Trabalho · Global Solution (Front-End)
 
-SPA desenvolvida para a Global Solution 2025/2 – Front-End Design/Web Development. A proposta é simular uma rede colaborativa focada no futuro do trabalho, conectando talentos, competências e propósitos usando React + Tailwind CSS.
+SPA desenvolvida para a Global Solution – Front-End Design/Web Development. A proposta é simular uma rede colaborativa focada no futuro do trabalho, conectando talentos, competências e propósitos usando React + Tailwind CSS.
 
 ## ✨ Destaques
 
@@ -46,39 +46,14 @@ npm run dev
 http://localhost:5173
 ```
 
-### Scripts úteis
-
-| Comando        | Descrição                                      |
-| -------------- | ---------------------------------------------- |
-| `npm run dev`  | Inicia o servidor Vite com HMR                 |
-| `npm run build`| Gera a build otimizada para produção           |
-| `npm run preview` | Faz preview da build localmente             |
-
 ## 🗂️ Dataset
 
-- Arquivo: `public/data/professionals.json`
 - Possui 60 registros seguindo o esquema definido no enunciado (dados pessoais, acadêmicos, profissionais e comportamentais)
-- Para regenerar ou customizar:
 
-```bash
-node scripts/generateProfiles.mjs
-```
+## 🚀 Repositório
 
-## 🚀 Deploy e Repositório
-
-- **Deploy**: _adicionar link após publicação_
 - **Repositório**: _adicionar link após push remoto_
-
-> Durante a avaliação final, garantir ao menos 10 commits significativos no repositório, conforme solicitado pela disciplina.
 
 ## 👥 Integrantes
 
-| Nome | RM |
-| ---- | -- |
-| _Adicione aqui os nomes e RMs do grupo_ | |
 
-## 📄 Observações
-
-- Não há autenticação ou usuários padrão.
-- Antes de enviar para avaliação, remova a pasta `node_modules` do pacote compactado.
-- Utilize `npm run build` e teste o resultado hospedado/estático para validar o deploy antes da entrega final.
