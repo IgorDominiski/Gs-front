@@ -1,7 +1,7 @@
 # Futuro do Trabalho · Global Solution (Front-End)
 
 SPA desenvolvida para a Global Solution – Front-End Design/Web Development. A proposta é simular uma rede colaborativa focada no futuro do trabalho, conectando talentos, competências e propósitos usando React + Tailwind CSS.
-
+ 
 ## ✨ Destaques
 
 - Catálogo com 60 perfis fictícios carregados de um JSON local 
