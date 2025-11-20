@@ -48,7 +48,7 @@ http://localhost:5173
 
 ## 🗂️ Dataset
 
-- Possui 60 registros seguindo o esquema definido no enunciado (dados pessoais, acadêmicos, profissionais e comportamentais)
+- Possui 60 registros seguindo o esquema definido (dados pessoais, acadêmicos, profissionais e comportamentais)
 
 ## 🚀 Repositório
 
@@ -56,4 +56,6 @@ http://localhost:5173
 
 ## 👥 Integrantes
 
-
+Igor Dominiski – RM562055
+Murillo Akira – RM561886
+Murilo Canestri – RM564053
