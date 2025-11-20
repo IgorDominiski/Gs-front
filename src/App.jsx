@@ -549,7 +549,7 @@ function ProfileCard({ profile, recommendationsCount, onSelect }) {
           alt={`Foto de ${profile.nome}`}
           className="h-16 w-16 rounded-2xl border border-slate-100 bg-slate-50 object-cover dark:border-slate-700"
         />
-        <div>
+      <div>
           <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
             {profile.nome}
           </h3>
