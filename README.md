@@ -4,20 +4,14 @@ SPA desenvolvida para a Global Solution 2025/2 – Front-End Design/Web Developm
 
 ## ✨ Destaques
 
-- Catálogo com 60 perfis fictícios carregados de um JSON local (`public/data/professionals.json`)
+- Catálogo com 60 perfis fictícios carregados de um JSON local 
 - Cards responsivos com foto, cargo, localização, área e skills principais
 - Modal com informações completas: experiências, formações, certificações, projetos, idiomas, interesses e hobbies
 - Sistema de busca + filtros por área, cidade e tecnologia
 - Botões funcionais: recomendar profissional (contador em tempo real) e enviar mensagem (formulário com validação)
-- Dark mode com persistência via `localStorage`
+- Dark mode 
 - Design responsivo construído 100% com Tailwind CSS
 
-## 🧱 Stack
-
-- [React 19](https://react.dev/)
-- [Vite](https://vite.dev/)
-- [Tailwind CSS 3](https://tailwindcss.com/)
-- Dados mockados via JSON + script Node
 
 ## 📂 Estrutura do Projeto
 
