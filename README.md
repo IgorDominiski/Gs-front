@@ -4,14 +4,20 @@ SPA desenvolvida para a Global Solution – Front-End Design/Web Development. A 
 
 ## ✨ Destaques
 
-- Catálogo com 60 perfis fictícios carregados de um JSON local 
+- Catálogo com 60 perfis fictícios carregados de um JSON local (`public/data/professionals.json`)
 - Cards responsivos com foto, cargo, localização, área e skills principais
 - Modal com informações completas: experiências, formações, certificações, projetos, idiomas, interesses e hobbies
 - Sistema de busca + filtros por área, cidade e tecnologia
 - Botões funcionais: recomendar profissional (contador em tempo real) e enviar mensagem (formulário com validação)
-- Dark mode 
+- Dark mode com persistência via `localStorage`
 - Design responsivo construído 100% com Tailwind CSS
 
+## 🧱 Stack
+
+- [React 19](https://react.dev/)
+- [Vite](https://vite.dev/)
+- [Tailwind CSS 3](https://tailwindcss.com/)
+- Dados mockados via JSON + script Node
 
 ## 📂 Estrutura do Projeto
 
@@ -48,14 +54,29 @@ http://localhost:5173
 
 ## 🗂️ Dataset
 
-- Possui 60 registros seguindo o esquema definido (dados pessoais, acadêmicos, profissionais e comportamentais)
+- Arquivo: `public/data/professionals.json`
+- Possui 60 registros seguindo o esquema definido no enunciado (dados pessoais, acadêmicos, profissionais e comportamentais)
+- Para regenerar ou customizar:
 
-## 🚀 Repositório
+```bash
+node scripts/generateProfiles.mjs
+```
 
-- **Repositório**: https://github.com/IgorDominiski/Gs-front.git
+## 🚀 Deploy e Repositório
+
+- **Deploy**: _adicionar link após publicação_
+- **Repositório**: _adicionar link após push remoto_
+
+> Durante a avaliação final, garantir ao menos 10 commits significativos no repositório, conforme solicitado pela disciplina.
 
 ## 👥 Integrantes
 
-Igor Dominiski – RM562055
-Murillo Akira – RM561886
-Murilo Canestri – RM564053
+| Nome | RM |
+| ---- | -- |
+| _Adicione aqui os nomes e RMs do grupo_ | |
+
+## 📄 Observações
+
+- Não há autenticação ou usuários padrão.
+- Antes de enviar para avaliação, remova a pasta `node_modules` do pacote compactado.
+- Utilize `npm run build` e teste o resultado hospedado/estático para validar o deploy antes da entrega final.

@@ -44,6 +44,7 @@ function App() {
   const [recommendations, setRecommendations] = useState({})
   const [toast, setToast] = useState(null)
   const [isDark, toggleTheme] = useDarkMode()
+  const [isCreateOpen, setIsCreateOpen] = useState(false)
   const toastTimeoutRef = useRef(null)
 
   useEffect(() => {
@@ -173,9 +174,101 @@ function App() {
     }
   }, [])
 
-  const handleOpenProfile = (profile) => {
-    setSelectedProfile(profile)
+  const handleCreateProfile = (event) => {
+    event.preventDefault()
+    const formData = new FormData(event.currentTarget)
+
+    const getValue = (field) => formData.get(field)?.toString().trim() ?? ''
+    const parseList = (value) =>
+      value
+        .split(',')
+        .map((item) => item.trim())
+        .filter(Boolean)
+
+    const nome = getValue('nome')
+    const cargo = getValue('cargo')
+    const area = getValue('area') || 'Tecnologia'
+    const localizacao = getValue('localizacao') || 'São Paulo/SP'
+    const resumo =
+      getValue('resumo') ||
+      'Profissional criado manualmente para ampliar a rede colaborativa do futuro do trabalho.'
+
+    if (!nome || !cargo) {
+      triggerToast('Nome e cargo são obrigatórios.')
+      return
+    }
+
+    const habilidades = parseList(getValue('habilidades'))
+    const soft = parseList(getValue('softskills'))
+    const interesses = parseList(getValue('interesses'))
+    const hobbies = parseList(getValue('hobbies'))
+    const foto = getValue('foto')
+
+    const nextId = profiles.reduce((max, profile) => Math.max(max, profile.id), 0) + 1
+    const currentYear = new Date().getFullYear()
+
+    const newProfile = {
+      id: nextId,
+      nome,
+      foto:
+        foto ||
+        `https://api.dicebear.com/9.x/avataaars/svg?seed=${encodeURIComponent(nome)}`,
+      cargo,
+      resumo,
+      localizacao,
+      area,
+      habilidadesTecnicas:
+        habilidades.length > 0 ? habilidades : ['Comunicação Digital', 'Colaboração'],
+      softSkills: soft.length > 0 ? soft : ['Empatia', 'Liderança'],
+      experiencias: [
+        {
+          empresa: getValue('empresa') || 'Projeto colaborativo',
+          cargo,
+          inicio: getValue('inicio') || `${currentYear}-01`,
+          fim: getValue('fim') || 'Atual',
+          descricao:
+            getValue('descricao') ||
+            'Experiência criada manualmente para representar o histórico profissional.',
+        },
+      ],
+      formacao: [
+        {
+          curso: getValue('curso') || 'Programa Especial Futuro do Trabalho',
+          instituicao: getValue('instituicao') || 'Global Solution',
+          ano: Number(getValue('ano')) || currentYear,
+        },
+      ],
+      projetos: [
+        {
+          titulo: getValue('projeto') || 'Iniciativa colaborativa',
+          link: getValue('linkProjeto') || 'https://example.com',
+          descricao:
+            getValue('descricaoProjeto') ||
+            'Projeto adicionado manualmente para conectar talentos e propósito.',
+        },
+      ],
+      certificacoes: parseList(getValue('certificacoes')),
+      idiomas: [
+        {
+          idioma: 'Português',
+          nivel: 'Nativo',
+        },
+        {
+          idioma: getValue('idioma') || 'Inglês',
+          nivel: getValue('nivelIdioma') || 'Intermediário',
+        },
+      ],
+      areaInteresses: interesses.length > 0 ? interesses : ['Futuro do trabalho'],
+      hobbies: hobbies.length > 0 ? hobbies : ['Mentoria', 'Voluntariado'],
+    }
+
+    setProfiles((prev) => [newProfile, ...prev])
+    setRecommendations((prev) => ({ ...prev, [newProfile.id]: 0 }))
+    setSelectedProfile(newProfile)
     setMessageTarget(null)
+    triggerToast(`Perfil de ${nome} criado!`)
+    setIsCreateOpen(false)
+    event.currentTarget.reset()
   }
 
   return (
@@ -197,7 +290,16 @@ function App() {
                 </p>
               </div>
             </div>
-            <DarkModeToggle isDark={isDark} onToggle={toggleTheme} />
+            <div className="flex flex-wrap items-center gap-3">
+              <button
+                type="button"
+                onClick={() => setIsCreateOpen(true)}
+                className="inline-flex items-center gap-2 rounded-2xl bg-brand-600 px-4 py-2 text-sm font-semibold text-white shadow-md transition hover:bg-brand-500"
+              >
+                + Novo perfil
+              </button>
+              <DarkModeToggle isDark={isDark} onToggle={toggleTheme} />
+            </div>
           </div>
           <StatsBar stats={stats} />
           <FilterControls
@@ -238,12 +340,21 @@ function App() {
           ) : (
             <ProfileGrid
               profiles={filteredProfiles}
-              onSelect={handleOpenProfile}
               recommendations={recommendations}
+              onSelect={(profile) => {
+                setSelectedProfile(profile)
+                setMessageTarget(null)
+              }}
             />
           )}
         </section>
       </div>
+
+      <CreateProfileModal
+        open={isCreateOpen}
+        onClose={() => setIsCreateOpen(false)}
+        onSubmit={handleCreateProfile}
+      />
 
       <ProfileModal
         profile={selectedProfile}
@@ -414,22 +525,22 @@ function ActiveFiltersBadge({ filters, onClear }) {
   )
 }
 
-function ProfileGrid({ profiles, onSelect, recommendations }) {
+function ProfileGrid({ profiles, recommendations, onSelect }) {
   return (
     <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
       {profiles.map((profile) => (
         <ProfileCard
           key={profile.id}
           profile={profile}
-          onSelect={() => onSelect(profile)}
           recommendationsCount={recommendations[profile.id] ?? 0}
+          onSelect={() => onSelect(profile)}
         />
       ))}
     </div>
   )
 }
 
-function ProfileCard({ profile, onSelect, recommendationsCount }) {
+function ProfileCard({ profile, recommendationsCount, onSelect }) {
   return (
     <article className="group flex flex-col rounded-3xl border border-slate-100 bg-white p-6 shadow-lg transition hover:-translate-y-1 hover:border-brand-200 hover:shadow-glow dark:border-slate-800 dark:bg-slate-900/70">
       <div className="flex items-center gap-4">
@@ -671,7 +782,7 @@ function ProfileModal({
             </div>
           </Section>
 
-          <Section title="Soft skills & hobbies">
+          <Section title="Hobbies">
             <div className="flex flex-wrap gap-2">
               {profile.hobbies.map((hobby) => (
                 <span
@@ -766,6 +877,269 @@ function SkeletonGrid() {
           </div>
         </div>
       ))}
+    </div>
+  )
+}
+
+function CreateProfileModal({ open, onClose, onSubmit }) {
+  if (!open) return null
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/70 px-4 py-10 backdrop-blur">
+      <form
+        onSubmit={onSubmit}
+        className="max-h-[90vh] w-full max-w-3xl overflow-y-auto rounded-3xl border border-slate-100 bg-white p-6 shadow-2xl dark:border-slate-800 dark:bg-slate-900"
+      >
+        <div className="flex items-start justify-between gap-4">
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-brand-500">
+              Novo talento
+            </p>
+            <h2 className="text-2xl font-semibold text-slate-900 dark:text-white">
+              Criar perfil personalizado
+            </h2>
+            <p className="text-sm text-slate-500 dark:text-slate-400">
+              Adicione rapidamente um profissional fictício para enriquecer o catálogo da rede.
+            </p>
+          </div>
+          <button
+            type="button"
+            onClick={onClose}
+            className="rounded-full border border-slate-200 p-2 text-slate-500 transition hover:border-slate-300 hover:text-slate-700 dark:border-slate-700 dark:text-slate-300"
+            aria-label="Fechar formulário"
+          >
+            ✕
+          </button>
+        </div>
+
+        <div className="mt-6 grid gap-4 md:grid-cols-2">
+          <label className="flex flex-col gap-1 text-sm font-medium text-slate-600 dark:text-slate-300">
+            Nome completo *
+            <input
+              name="nome"
+              required
+              placeholder="Ex.: Laura Ribeiro"
+              className="rounded-2xl border border-slate-200 px-4 py-2.5 text-sm text-slate-900 focus:border-brand-400 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
+            />
+          </label>
+          <label className="flex flex-col gap-1 text-sm font-medium text-slate-600 dark:text-slate-300">
+            Cargo *
+            <input
+              name="cargo"
+              required
+              placeholder="Ex.: Engenheira de Software"
+              className="rounded-2xl border border-slate-200 px-4 py-2.5 text-sm text-slate-900 focus:border-brand-400 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
+            />
+          </label>
+          <label className="flex flex-col gap-1 text-sm font-medium text-slate-600 dark:text-slate-300">
+            Área
+            <input
+              name="area"
+              placeholder="Tecnologia, Design..."
+              className="rounded-2xl border border-slate-200 px-4 py-2.5 text-sm text-slate-900 focus:border-brand-400 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
+            />
+          </label>
+          <label className="flex flex-col gap-1 text-sm font-medium text-slate-600 dark:text-slate-300">
+            Localização
+            <input
+              name="localizacao"
+              placeholder="Cidade/UF"
+              className="rounded-2xl border border-slate-200 px-4 py-2.5 text-sm text-slate-900 focus:border-brand-400 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
+            />
+          </label>
+          <label className="md:col-span-2 flex flex-col gap-1 text-sm font-medium text-slate-600 dark:text-slate-300">
+            Resumo
+            <textarea
+              name="resumo"
+              rows="3"
+              placeholder="Compartilhe a missão profissional e impactos desejados."
+              className="rounded-2xl border border-slate-200 px-4 py-2.5 text-sm text-slate-900 focus:border-brand-400 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
+            />
+          </label>
+          <label className="md:col-span-2 flex flex-col gap-1 text-sm font-medium text-slate-600 dark:text-slate-300">
+            URL da foto (opcional)
+            <input
+              name="foto"
+              placeholder="https://..."
+              className="rounded-2xl border border-slate-200 px-4 py-2.5 text-sm text-slate-900 focus:border-brand-400 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
+            />
+          </label>
+        </div>
+
+        <div className="mt-6 grid gap-4">
+          <label className="flex flex-col gap-1 text-sm font-medium text-slate-600 dark:text-slate-300">
+            Habilidades técnicas (separe por vírgula)
+            <input
+              name="habilidades"
+              placeholder="React, Node.js, Tailwind"
+              className="rounded-2xl border border-slate-200 px-4 py-2.5 text-sm text-slate-900 focus:border-brand-400 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
+            />
+          </label>
+          <label className="flex flex-col gap-1 text-sm font-medium text-slate-600 dark:text-slate-300">
+            Soft skills (vírgula)
+            <input
+              name="softskills"
+              placeholder="Comunicação, Liderança..."
+              className="rounded-2xl border border-slate-200 px-4 py-2.5 text-sm text-slate-900 focus:border-brand-400 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
+            />
+          </label>
+          <label className="flex flex-col gap-1 text-sm font-medium text-slate-600 dark:text-slate-300">
+            Interesses (vírgula)
+            <input
+              name="interesses"
+              placeholder="IA ética, Educação..."
+              className="rounded-2xl border border-slate-200 px-4 py-2.5 text-sm text-slate-900 focus:border-brand-400 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
+            />
+          </label>
+          <label className="flex flex-col gap-1 text-sm font-medium text-slate-600 dark:text-slate-300">
+            Hobbies (vírgula)
+            <input
+              name="hobbies"
+              placeholder="Fotografia, Yoga..."
+              className="rounded-2xl border border-slate-200 px-4 py-2.5 text-sm text-slate-900 focus:border-brand-400 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
+            />
+          </label>
+        </div>
+
+        <div className="mt-6 grid gap-4 md:grid-cols-2">
+          <label className="flex flex-col gap-1 text-sm font-medium text-slate-600 dark:text-slate-300">
+            Empresa atual
+            <input
+              name="empresa"
+              placeholder="Nome da empresa ou coletivo"
+              className="rounded-2xl border border-slate-200 px-4 py-2.5 text-sm text-slate-900 focus:border-brand-400 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
+            />
+          </label>
+          <label className="flex flex-col gap-1 text-sm font-medium text-slate-600 dark:text-slate-300">
+            Descrição da experiência
+            <input
+              name="descricao"
+              placeholder="Impacto gerado..."
+              className="rounded-2xl border border-slate-200 px-4 py-2.5 text-sm text-slate-900 focus:border-brand-400 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
+            />
+          </label>
+          <div className="grid gap-4 sm:grid-cols-3 md:col-span-2">
+            <label className="flex flex-col gap-1 text-sm font-medium text-slate-600 dark:text-slate-300">
+              Início
+              <input
+                name="inicio"
+                placeholder="2023-01"
+                className="rounded-2xl border border-slate-200 px-4 py-2.5 text-sm text-slate-900 focus:border-brand-400 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
+              />
+            </label>
+            <label className="flex flex-col gap-1 text-sm font-medium text-slate-600 dark:text-slate-300">
+              Fim
+              <input
+                name="fim"
+                placeholder="Atual"
+                className="rounded-2xl border border-slate-200 px-4 py-2.5 text-sm text-slate-900 focus:border-brand-400 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
+              />
+            </label>
+          </div>
+        </div>
+
+        <div className="mt-6 grid gap-4 md:grid-cols-2">
+          <label className="flex flex-col gap-1 text-sm font-medium text-slate-600 dark:text-slate-300">
+            Curso
+            <input
+              name="curso"
+              placeholder="Nome do curso"
+              className="rounded-2xl border border-slate-200 px-4 py-2.5 text-sm text-slate-900 focus:border-brand-400 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
+            />
+          </label>
+          <label className="flex flex-col gap-1 text-sm font-medium text-slate-600 dark:text-slate-300">
+            Instituição
+            <input
+              name="instituicao"
+              placeholder="Universidade / Escola"
+              className="rounded-2xl border border-slate-200 px-4 py-2.5 text-sm text-slate-900 focus:border-brand-400 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
+            />
+          </label>
+          <label className="flex flex-col gap-1 text-sm font-medium text-slate-600 dark:text-slate-300">
+            Ano
+            <input
+              name="ano"
+              type="number"
+              min="1990"
+              max="2099"
+              placeholder="2025"
+              className="rounded-2xl border border-slate-200 px-4 py-2.5 text-sm text-slate-900 focus:border-brand-400 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
+            />
+          </label>
+        </div>
+
+        <div className="mt-6 grid gap-4 md:grid-cols-2">
+          <label className="flex flex-col gap-1 text-sm font-medium text-slate-600 dark:text-slate-300">
+            Projeto em destaque
+            <input
+              name="projeto"
+              placeholder="Título do projeto"
+              className="rounded-2xl border border-slate-200 px-4 py-2.5 text-sm text-slate-900 focus:border-brand-400 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
+            />
+          </label>
+          <label className="flex flex-col gap-1 text-sm font-medium text-slate-600 dark:text-slate-300">
+            Link do projeto
+            <input
+              name="linkProjeto"
+              placeholder="https://"
+              className="rounded-2xl border border-slate-200 px-4 py-2.5 text-sm text-slate-900 focus:border-brand-400 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
+            />
+          </label>
+          <label className="md:col-span-2 flex flex-col gap-1 text-sm font-medium text-slate-600 dark:text-slate-300">
+            Descrição do projeto
+            <input
+              name="descricaoProjeto"
+              placeholder="Objetivo e impacto"
+              className="rounded-2xl border border-slate-200 px-4 py-2.5 text-sm text-slate-900 focus:border-brand-400 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
+            />
+          </label>
+        </div>
+
+        <div className="mt-6 grid gap-4 md:grid-cols-2">
+          <label className="flex flex-col gap-1 text-sm font-medium text-slate-600 dark:text-slate-300">
+            Certificações (vírgula)
+            <input
+              name="certificacoes"
+              placeholder="Scrum Master, AWS..."
+              className="rounded-2xl border border-slate-200 px-4 py-2.5 text-sm text-slate-900 focus:border-brand-400 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
+            />
+          </label>
+          <div className="grid gap-4 sm:grid-cols-2">
+            <label className="flex flex-col gap-1 text-sm font-medium text-slate-600 dark:text-slate-300">
+              Idioma adicional
+              <input
+                name="idioma"
+                placeholder="Inglês"
+                className="rounded-2xl border border-slate-200 px-4 py-2.5 text-sm text-slate-900 focus:border-brand-400 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
+              />
+            </label>
+            <label className="flex flex-col gap-1 text-sm font-medium text-slate-600 dark:text-slate-300">
+              Nível
+              <input
+                name="nivelIdioma"
+                placeholder="Avançado"
+                className="rounded-2xl border border-slate-200 px-4 py-2.5 text-sm text-slate-900 focus:border-brand-400 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
+              />
+            </label>
+          </div>
+        </div>
+
+        <div className="mt-8 flex flex-wrap justify-end gap-3">
+          <button
+            type="button"
+            onClick={onClose}
+            className="rounded-2xl border border-slate-200 px-4 py-2 text-sm font-semibold text-slate-600 hover:border-slate-300 dark:border-slate-700 dark:text-slate-300"
+          >
+            Cancelar
+          </button>
+          <button
+            type="submit"
+            className="inline-flex items-center gap-2 rounded-2xl bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white shadow-md transition hover:bg-brand-500"
+          >
+            Salvar perfil
+          </button>
+        </div>
+      </form>
     </div>
   )
 }
