@@ -52,7 +52,7 @@ http://localhost:5173
 
 ## 🚀 Repositório
 
-- **Repositório**: _adicionar link após push remoto_
+- **Repositório**: https://github.com/IgorDominiski/Gs-front.git
 
 ## 👥 Integrantes
 
