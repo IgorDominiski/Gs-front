@@ -1,0 +1,4722 @@
+[
+  {
+    "id": 1,
+    "nome": "Ana Oliveira",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Ana%20Oliveira",
+    "cargo": "Desenvolvedor(a) Back-end",
+    "resumo": "Desenvolvedor(a) Back-end com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "Node.js",
+      "GraphQL"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Magazine Luiza",
+        "cargo": "Desenvolvedor(a) Back-end",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Stone",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Computação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified Solutions Architect",
+      "Design Thinking Expert"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      },
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Saúde digital",
+      "Educação"
+    ],
+    "hobbies": [
+      "Fotografia",
+      "Corrida"
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "Bruno Costa",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Bruno%20Costa",
+    "cargo": "Analista de Segurança",
+    "resumo": "Analista de Segurança com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Produto",
+    "habilidadesTecnicas": [
+      "Vue.js",
+      "JavaScript",
+      "Sass",
+      "Firebase",
+      "Figma"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Colaboração",
+      "Comunicação",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Loft",
+        "cargo": "Analista de Segurança",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Wildlife",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "PUC-SP",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Master",
+      "Google Data Engineer"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      },
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "IA ética",
+      "Educação",
+      "Cidades inteligentes"
+    ],
+    "hobbies": [
+      "Corrida",
+      "Yoga"
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "Carlos Rocha",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Carlos%20Rocha",
+    "cargo": "Especialista em IA",
+    "resumo": "Especialista em IA com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Curitiba/PR",
+    "area": "Inovação",
+    "habilidadesTecnicas": [
+      "Python",
+      "TensorFlow",
+      "Pandas",
+      "SQL",
+      "Docker"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Criatividade",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Stone",
+        "cargo": "Especialista em IA",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Sebrae",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Design Thinking Expert",
+      "Azure AI Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "Saúde digital"
+    ],
+    "hobbies": [
+      "Fotografia"
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "Daniela Fernandes",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Daniela%20Fernandes",
+    "cargo": "Arquiteto(a) Cloud",
+    "resumo": "Arquiteto(a) Cloud com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": [
+      "Java",
+      "Spring Boot",
+      "Kubernetes",
+      "Azure",
+      "Microservices"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Colaboração",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Wildlife",
+        "cargo": "Arquiteto(a) Cloud",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "XP Inc.",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "SENAI",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Engineer",
+      "AWS Certified Solutions Architect"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      },
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "IA ética",
+      "Educação"
+    ],
+    "hobbies": [
+      "Corrida",
+      "Xadrez"
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "Eduardo Moraes",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Eduardo%20Moraes",
+    "cargo": "Tech Lead",
+    "resumo": "Tech Lead com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Brasília/DF",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Go",
+      "PostgreSQL",
+      "gRPC",
+      "AWS Lambda",
+      "Terraform"
+    ],
+    "softSkills": [
+      "Colaboração",
+      "Resiliência",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Sebrae",
+        "cargo": "Tech Lead",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Nubank",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "Mackenzie",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Azure AI Fundamentals",
+      "Scrum Master"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      },
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "Futuro do trabalho",
+      "Cidades inteligentes"
+    ],
+    "hobbies": [
+      "Fotografia",
+      "Música"
+    ]
+  },
+  {
+    "id": 6,
+    "nome": "Fernanda Barbosa",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Fernanda%20Barbosa",
+    "cargo": "Engenheiro(a) de Software",
+    "resumo": "Engenheiro(a) de Software com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Recife/PE",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Flutter",
+      "Dart",
+      "Supabase",
+      "CI/CD",
+      "Jest"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Liderança",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "XP Inc.",
+        "cargo": "Engenheiro(a) de Software",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Itaú",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Computação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified Solutions Architect",
+      "Design Thinking Expert"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Cidades inteligentes",
+      "Futuro do trabalho",
+      "Saúde digital"
+    ],
+    "hobbies": [
+      "Yoga",
+      "Corrida"
+    ]
+  },
+  {
+    "id": 7,
+    "nome": "Guilherme Carvalho",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Guilherme%20Carvalho",
+    "cargo": "UX/UI Designer",
+    "resumo": "UX/UI Designer com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Salvador/BA",
+    "area": "Produto",
+    "habilidadesTecnicas": [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "Node.js",
+      "GraphQL"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Gestão do tempo",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Nubank",
+        "cargo": "UX/UI Designer",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Magazine Luiza",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "PUC-SP",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Master",
+      "Google Data Engineer"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      },
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Futuro do trabalho"
+    ],
+    "hobbies": [
+      "Ciclismo",
+      "Voluntariado"
+    ]
+  },
+  {
+    "id": 8,
+    "nome": "Helena Dias",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Helena%20Dias",
+    "cargo": "Product Manager",
+    "resumo": "Product Manager com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Florianópolis/SC",
+    "area": "Inovação",
+    "habilidadesTecnicas": [
+      "Vue.js",
+      "JavaScript",
+      "Sass",
+      "Firebase",
+      "Figma"
+    ],
+    "softSkills": [
+      "Gestão do tempo",
+      "Criatividade",
+      "Colaboração"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Itaú",
+        "cargo": "Product Manager",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Loft",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Design Thinking Expert",
+      "Azure AI Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      },
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Cidades inteligentes",
+      "Educação",
+      "Futuro do trabalho"
+    ],
+    "hobbies": [
+      "Yoga",
+      "Corrida"
+    ]
+  },
+  {
+    "id": 9,
+    "nome": "Igor Esteves",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Igor%20Esteves",
+    "cargo": "Cientista de Dados",
+    "resumo": "Cientista de Dados com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": [
+      "Python",
+      "TensorFlow",
+      "Pandas",
+      "SQL",
+      "Docker"
+    ],
+    "softSkills": [
+      "Gestão do tempo",
+      "Colaboração",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Magazine Luiza",
+        "cargo": "Cientista de Dados",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Stone",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "SENAI",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Engineer",
+      "AWS Certified Solutions Architect"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "IA ética",
+      "Saúde digital"
+    ],
+    "hobbies": [
+      "Xadrez",
+      "Música"
+    ]
+  },
+  {
+    "id": 10,
+    "nome": "Juliana Farias",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Juliana%20Farias",
+    "cargo": "Desenvolvedor(a) Front-end",
+    "resumo": "Desenvolvedor(a) Front-end com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Java",
+      "Spring Boot",
+      "Kubernetes",
+      "Azure",
+      "Microservices"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Liderança",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Loft",
+        "cargo": "Desenvolvedor(a) Front-end",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Wildlife",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "Mackenzie",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Azure AI Fundamentals",
+      "Scrum Master"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      },
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Educação",
+      "IA ética"
+    ],
+    "hobbies": [
+      "Corrida",
+      "Culinária"
+    ]
+  },
+  {
+    "id": 11,
+    "nome": "Karina Gomes",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Karina%20Gomes",
+    "cargo": "Desenvolvedor(a) Back-end",
+    "resumo": "Desenvolvedor(a) Back-end com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Go",
+      "PostgreSQL",
+      "gRPC",
+      "AWS Lambda",
+      "Terraform"
+    ],
+    "softSkills": [
+      "Colaboração",
+      "Pensamento crítico",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Stone",
+        "cargo": "Desenvolvedor(a) Back-end",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Sebrae",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Computação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified Solutions Architect",
+      "Design Thinking Expert"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      },
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Futuro do trabalho",
+      "Educação"
+    ],
+    "hobbies": [
+      "Yoga",
+      "Fotografia"
+    ]
+  },
+  {
+    "id": 12,
+    "nome": "Luiz Henrique",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Luiz%20Henrique",
+    "cargo": "Analista de Segurança",
+    "resumo": "Analista de Segurança com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Produto",
+    "habilidadesTecnicas": [
+      "Flutter",
+      "Dart",
+      "Supabase",
+      "CI/CD",
+      "Jest"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Comunicação",
+      "Resiliência",
+      "Gestão do tempo"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Wildlife",
+        "cargo": "Analista de Segurança",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "XP Inc.",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "PUC-SP",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Master",
+      "Google Data Engineer"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Educação"
+    ],
+    "hobbies": [
+      "Fotografia",
+      "Culinária"
+    ]
+  },
+  {
+    "id": 13,
+    "nome": "Marina Ibiapina",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Marina%20Ibiapina",
+    "cargo": "Especialista em IA",
+    "resumo": "Especialista em IA com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Curitiba/PR",
+    "area": "Inovação",
+    "habilidadesTecnicas": [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "Node.js",
+      "GraphQL"
+    ],
+    "softSkills": [
+      "Gestão do tempo",
+      "Liderança",
+      "Resiliência",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Sebrae",
+        "cargo": "Especialista em IA",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Nubank",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Design Thinking Expert",
+      "Azure AI Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      },
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Futuro do trabalho"
+    ],
+    "hobbies": [
+      "Música",
+      "Xadrez"
+    ]
+  },
+  {
+    "id": 14,
+    "nome": "Nicolas Jesus",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Nicolas%20Jesus",
+    "cargo": "Arquiteto(a) Cloud",
+    "resumo": "Arquiteto(a) Cloud com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": [
+      "Vue.js",
+      "JavaScript",
+      "Sass",
+      "Firebase",
+      "Figma"
+    ],
+    "softSkills": [
+      "Gestão do tempo",
+      "Criatividade",
+      "Adaptabilidade",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "XP Inc.",
+        "cargo": "Arquiteto(a) Cloud",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Itaú",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "SENAI",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Engineer",
+      "AWS Certified Solutions Architect"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      },
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "Saúde digital",
+      "IA ética"
+    ],
+    "hobbies": [
+      "Yoga",
+      "Xadrez"
+    ]
+  },
+  {
+    "id": 15,
+    "nome": "Olivia Lima",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Olivia%20Lima",
+    "cargo": "Tech Lead",
+    "resumo": "Tech Lead com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Brasília/DF",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Python",
+      "TensorFlow",
+      "Pandas",
+      "SQL",
+      "Docker"
+    ],
+    "softSkills": [
+      "Colaboração",
+      "Resiliência",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Nubank",
+        "cargo": "Tech Lead",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Magazine Luiza",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "Mackenzie",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Azure AI Fundamentals",
+      "Scrum Master"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "Cidades inteligentes",
+      "Futuro do trabalho"
+    ],
+    "hobbies": [
+      "Fotografia",
+      "Xadrez"
+    ]
+  },
+  {
+    "id": 16,
+    "nome": "Paulo Macedo",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Paulo%20Macedo",
+    "cargo": "Engenheiro(a) de Software",
+    "resumo": "Engenheiro(a) de Software com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Recife/PE",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Java",
+      "Spring Boot",
+      "Kubernetes",
+      "Azure",
+      "Microservices"
+    ],
+    "softSkills": [
+      "Colaboração",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Itaú",
+        "cargo": "Engenheiro(a) de Software",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Loft",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Computação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified Solutions Architect",
+      "Design Thinking Expert"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      },
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Cidades inteligentes",
+      "Sustentabilidade",
+      "Saúde digital"
+    ],
+    "hobbies": [
+      "Fotografia",
+      "Voluntariado"
+    ]
+  },
+  {
+    "id": 17,
+    "nome": "Queila Novaes",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Queila%20Novaes",
+    "cargo": "UX/UI Designer",
+    "resumo": "UX/UI Designer com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Salvador/BA",
+    "area": "Produto",
+    "habilidadesTecnicas": [
+      "Go",
+      "PostgreSQL",
+      "gRPC",
+      "AWS Lambda",
+      "Terraform"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Gestão do tempo",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Magazine Luiza",
+        "cargo": "UX/UI Designer",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Stone",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "PUC-SP",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Master",
+      "Google Data Engineer"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      },
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Futuro do trabalho",
+      "Saúde digital"
+    ],
+    "hobbies": [
+      "Yoga"
+    ]
+  },
+  {
+    "id": 18,
+    "nome": "Rafael Silva",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Rafael%20Silva",
+    "cargo": "Product Manager",
+    "resumo": "Product Manager com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Florianópolis/SC",
+    "area": "Inovação",
+    "habilidadesTecnicas": [
+      "Flutter",
+      "Dart",
+      "Supabase",
+      "CI/CD",
+      "Jest"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Liderança",
+      "Colaboração"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Loft",
+        "cargo": "Product Manager",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Wildlife",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Design Thinking Expert",
+      "Azure AI Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Cidades inteligentes",
+      "Sustentabilidade",
+      "Educação"
+    ],
+    "hobbies": [
+      "Ciclismo",
+      "Fotografia"
+    ]
+  },
+  {
+    "id": 19,
+    "nome": "Sofia Souza",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Sofia%20Souza",
+    "cargo": "Cientista de Dados",
+    "resumo": "Cientista de Dados com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "Node.js",
+      "GraphQL"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Colaboração",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Stone",
+        "cargo": "Cientista de Dados",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Sebrae",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "SENAI",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Engineer",
+      "AWS Certified Solutions Architect"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      },
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "IA ética",
+      "Cidades inteligentes"
+    ],
+    "hobbies": [
+      "Corrida",
+      "Culinária"
+    ]
+  },
+  {
+    "id": 20,
+    "nome": "Tiago Almeida",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Tiago%20Almeida",
+    "cargo": "Desenvolvedor(a) Front-end",
+    "resumo": "Desenvolvedor(a) Front-end com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Vue.js",
+      "JavaScript",
+      "Sass",
+      "Firebase",
+      "Figma"
+    ],
+    "softSkills": [
+      "Gestão do tempo",
+      "Resiliência",
+      "Colaboração",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Wildlife",
+        "cargo": "Desenvolvedor(a) Front-end",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "XP Inc.",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "Mackenzie",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Azure AI Fundamentals",
+      "Scrum Master"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      },
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Saúde digital",
+      "Futuro do trabalho"
+    ],
+    "hobbies": [
+      "Yoga",
+      "Música"
+    ]
+  },
+  {
+    "id": 21,
+    "nome": "Ursula Oliveira",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Ursula%20Oliveira",
+    "cargo": "Desenvolvedor(a) Back-end",
+    "resumo": "Desenvolvedor(a) Back-end com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Python",
+      "TensorFlow",
+      "Pandas",
+      "SQL",
+      "Docker"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Comunicação",
+      "Liderança",
+      "Colaboração"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Sebrae",
+        "cargo": "Desenvolvedor(a) Back-end",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Nubank",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Computação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified Solutions Architect",
+      "Design Thinking Expert"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Saúde digital",
+      "Sustentabilidade"
+    ],
+    "hobbies": [
+      "Culinária",
+      "Fotografia"
+    ]
+  },
+  {
+    "id": 22,
+    "nome": "Vitor Costa",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Vitor%20Costa",
+    "cargo": "Analista de Segurança",
+    "resumo": "Analista de Segurança com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Produto",
+    "habilidadesTecnicas": [
+      "Java",
+      "Spring Boot",
+      "Kubernetes",
+      "Azure",
+      "Microservices"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Resiliência",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "XP Inc.",
+        "cargo": "Analista de Segurança",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Itaú",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "PUC-SP",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Master",
+      "Google Data Engineer"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      },
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Cidades inteligentes",
+      "IA ética",
+      "Saúde digital"
+    ],
+    "hobbies": [
+      "Fotografia",
+      "Xadrez"
+    ]
+  },
+  {
+    "id": 23,
+    "nome": "Willian Rocha",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Willian%20Rocha",
+    "cargo": "Especialista em IA",
+    "resumo": "Especialista em IA com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Curitiba/PR",
+    "area": "Inovação",
+    "habilidadesTecnicas": [
+      "Go",
+      "PostgreSQL",
+      "gRPC",
+      "AWS Lambda",
+      "Terraform"
+    ],
+    "softSkills": [
+      "Gestão do tempo",
+      "Comunicação",
+      "Colaboração",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Nubank",
+        "cargo": "Especialista em IA",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Magazine Luiza",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Design Thinking Expert",
+      "Azure AI Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      },
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Futuro do trabalho",
+      "Sustentabilidade",
+      "Saúde digital"
+    ],
+    "hobbies": [
+      "Ciclismo",
+      "Fotografia"
+    ]
+  },
+  {
+    "id": 24,
+    "nome": "Ximena Fernandes",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Ximena%20Fernandes",
+    "cargo": "Arquiteto(a) Cloud",
+    "resumo": "Arquiteto(a) Cloud com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": [
+      "Flutter",
+      "Dart",
+      "Supabase",
+      "CI/CD",
+      "Jest"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Criatividade",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Itaú",
+        "cargo": "Arquiteto(a) Cloud",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Loft",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "SENAI",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Engineer",
+      "AWS Certified Solutions Architect"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Saúde digital",
+      "Futuro do trabalho"
+    ],
+    "hobbies": [
+      "Fotografia",
+      "Culinária"
+    ]
+  },
+  {
+    "id": 25,
+    "nome": "Yago Moraes",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Yago%20Moraes",
+    "cargo": "Tech Lead",
+    "resumo": "Tech Lead com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Brasília/DF",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "Node.js",
+      "GraphQL"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Adaptabilidade",
+      "Pensamento crítico",
+      "Gestão do tempo"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Magazine Luiza",
+        "cargo": "Tech Lead",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Stone",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "Mackenzie",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Azure AI Fundamentals",
+      "Scrum Master"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      },
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "IA ética",
+      "Futuro do trabalho"
+    ],
+    "hobbies": [
+      "Yoga",
+      "Xadrez"
+    ]
+  },
+  {
+    "id": 26,
+    "nome": "Zuleica Barbosa",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Zuleica%20Barbosa",
+    "cargo": "Engenheiro(a) de Software",
+    "resumo": "Engenheiro(a) de Software com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Recife/PE",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Vue.js",
+      "JavaScript",
+      "Sass",
+      "Firebase",
+      "Figma"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Colaboração",
+      "Gestão do tempo"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Loft",
+        "cargo": "Engenheiro(a) de Software",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Wildlife",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Computação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified Solutions Architect",
+      "Design Thinking Expert"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      },
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "IA ética",
+      "Educação",
+      "Sustentabilidade"
+    ],
+    "hobbies": [
+      "Ciclismo"
+    ]
+  },
+  {
+    "id": 27,
+    "nome": "Ana Carvalho",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Ana%20Carvalho",
+    "cargo": "UX/UI Designer",
+    "resumo": "UX/UI Designer com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Salvador/BA",
+    "area": "Produto",
+    "habilidadesTecnicas": [
+      "Python",
+      "TensorFlow",
+      "Pandas",
+      "SQL",
+      "Docker"
+    ],
+    "softSkills": [
+      "Gestão do tempo",
+      "Colaboração",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Stone",
+        "cargo": "UX/UI Designer",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Sebrae",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "PUC-SP",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Master",
+      "Google Data Engineer"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "Futuro do trabalho",
+      "Saúde digital"
+    ],
+    "hobbies": [
+      "Voluntariado",
+      "Xadrez"
+    ]
+  },
+  {
+    "id": 28,
+    "nome": "Bruno Dias",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Bruno%20Dias",
+    "cargo": "Product Manager",
+    "resumo": "Product Manager com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Florianópolis/SC",
+    "area": "Inovação",
+    "habilidadesTecnicas": [
+      "Java",
+      "Spring Boot",
+      "Kubernetes",
+      "Azure",
+      "Microservices"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Criatividade",
+      "Colaboração",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Wildlife",
+        "cargo": "Product Manager",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "XP Inc.",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Design Thinking Expert",
+      "Azure AI Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      },
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Futuro do trabalho",
+      "Educação",
+      "Cidades inteligentes"
+    ],
+    "hobbies": [
+      "Música"
+    ]
+  },
+  {
+    "id": 29,
+    "nome": "Carlos Esteves",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Carlos%20Esteves",
+    "cargo": "Cientista de Dados",
+    "resumo": "Cientista de Dados com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": [
+      "Go",
+      "PostgreSQL",
+      "gRPC",
+      "AWS Lambda",
+      "Terraform"
+    ],
+    "softSkills": [
+      "Colaboração",
+      "Criatividade",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Sebrae",
+        "cargo": "Cientista de Dados",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Nubank",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "SENAI",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Engineer",
+      "AWS Certified Solutions Architect"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      },
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "IA ética"
+    ],
+    "hobbies": [
+      "Culinária",
+      "Corrida"
+    ]
+  },
+  {
+    "id": 30,
+    "nome": "Daniela Farias",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Daniela%20Farias",
+    "cargo": "Desenvolvedor(a) Front-end",
+    "resumo": "Desenvolvedor(a) Front-end com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Flutter",
+      "Dart",
+      "Supabase",
+      "CI/CD",
+      "Jest"
+    ],
+    "softSkills": [
+      "Colaboração",
+      "Comunicação",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "XP Inc.",
+        "cargo": "Desenvolvedor(a) Front-end",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Itaú",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "Mackenzie",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Azure AI Fundamentals",
+      "Scrum Master"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Cidades inteligentes",
+      "Futuro do trabalho",
+      "IA ética"
+    ],
+    "hobbies": [
+      "Xadrez",
+      "Voluntariado"
+    ]
+  },
+  {
+    "id": 31,
+    "nome": "Eduardo Gomes",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Eduardo%20Gomes",
+    "cargo": "Desenvolvedor(a) Back-end",
+    "resumo": "Desenvolvedor(a) Back-end com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "Node.js",
+      "GraphQL"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Liderança",
+      "Colaboração"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Nubank",
+        "cargo": "Desenvolvedor(a) Back-end",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Magazine Luiza",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Computação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified Solutions Architect",
+      "Design Thinking Expert"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      },
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Cidades inteligentes",
+      "Educação"
+    ],
+    "hobbies": [
+      "Yoga",
+      "Ciclismo"
+    ]
+  },
+  {
+    "id": 32,
+    "nome": "Fernanda Henrique",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Fernanda%20Henrique",
+    "cargo": "Analista de Segurança",
+    "resumo": "Analista de Segurança com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Produto",
+    "habilidadesTecnicas": [
+      "Vue.js",
+      "JavaScript",
+      "Sass",
+      "Firebase",
+      "Figma"
+    ],
+    "softSkills": [
+      "Gestão do tempo",
+      "Pensamento crítico",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Itaú",
+        "cargo": "Analista de Segurança",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Loft",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "PUC-SP",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Master",
+      "Google Data Engineer"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      },
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Futuro do trabalho",
+      "Sustentabilidade"
+    ],
+    "hobbies": [
+      "Xadrez"
+    ]
+  },
+  {
+    "id": 33,
+    "nome": "Guilherme Ibiapina",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Guilherme%20Ibiapina",
+    "cargo": "Especialista em IA",
+    "resumo": "Especialista em IA com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Curitiba/PR",
+    "area": "Inovação",
+    "habilidadesTecnicas": [
+      "Python",
+      "TensorFlow",
+      "Pandas",
+      "SQL",
+      "Docker"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Magazine Luiza",
+        "cargo": "Especialista em IA",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Stone",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Design Thinking Expert",
+      "Azure AI Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Futuro do trabalho",
+      "Saúde digital",
+      "Cidades inteligentes"
+    ],
+    "hobbies": [
+      "Música",
+      "Fotografia"
+    ]
+  },
+  {
+    "id": 34,
+    "nome": "Helena Jesus",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Helena%20Jesus",
+    "cargo": "Arquiteto(a) Cloud",
+    "resumo": "Arquiteto(a) Cloud com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": [
+      "Java",
+      "Spring Boot",
+      "Kubernetes",
+      "Azure",
+      "Microservices"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Pensamento crítico",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Loft",
+        "cargo": "Arquiteto(a) Cloud",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Wildlife",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "SENAI",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Engineer",
+      "AWS Certified Solutions Architect"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      },
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Saúde digital",
+      "Cidades inteligentes"
+    ],
+    "hobbies": [
+      "Música",
+      "Corrida"
+    ]
+  },
+  {
+    "id": 35,
+    "nome": "Igor Lima",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Igor%20Lima",
+    "cargo": "Tech Lead",
+    "resumo": "Tech Lead com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Brasília/DF",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Go",
+      "PostgreSQL",
+      "gRPC",
+      "AWS Lambda",
+      "Terraform"
+    ],
+    "softSkills": [
+      "Gestão do tempo",
+      "Liderança",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Stone",
+        "cargo": "Tech Lead",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Sebrae",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "Mackenzie",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Azure AI Fundamentals",
+      "Scrum Master"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      },
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "Saúde digital",
+      "IA ética"
+    ],
+    "hobbies": [
+      "Ciclismo",
+      "Culinária"
+    ]
+  },
+  {
+    "id": 36,
+    "nome": "Juliana Macedo",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Juliana%20Macedo",
+    "cargo": "Engenheiro(a) de Software",
+    "resumo": "Engenheiro(a) de Software com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Recife/PE",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Flutter",
+      "Dart",
+      "Supabase",
+      "CI/CD",
+      "Jest"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Colaboração",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Wildlife",
+        "cargo": "Engenheiro(a) de Software",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "XP Inc.",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Computação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified Solutions Architect",
+      "Design Thinking Expert"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Futuro do trabalho",
+      "Cidades inteligentes"
+    ],
+    "hobbies": [
+      "Música",
+      "Corrida"
+    ]
+  },
+  {
+    "id": 37,
+    "nome": "Karina Novaes",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Karina%20Novaes",
+    "cargo": "UX/UI Designer",
+    "resumo": "UX/UI Designer com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Salvador/BA",
+    "area": "Produto",
+    "habilidadesTecnicas": [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "Node.js",
+      "GraphQL"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Comunicação",
+      "Colaboração",
+      "Gestão do tempo"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Sebrae",
+        "cargo": "UX/UI Designer",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Nubank",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "PUC-SP",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Master",
+      "Google Data Engineer"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      },
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "IA ética",
+      "Futuro do trabalho"
+    ],
+    "hobbies": [
+      "Fotografia",
+      "Ciclismo"
+    ]
+  },
+  {
+    "id": 38,
+    "nome": "Luiz Silva",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Luiz%20Silva",
+    "cargo": "Product Manager",
+    "resumo": "Product Manager com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Florianópolis/SC",
+    "area": "Inovação",
+    "habilidadesTecnicas": [
+      "Vue.js",
+      "JavaScript",
+      "Sass",
+      "Firebase",
+      "Figma"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Gestão do tempo",
+      "Colaboração",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "XP Inc.",
+        "cargo": "Product Manager",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Itaú",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Design Thinking Expert",
+      "Azure AI Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      },
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "Sustentabilidade",
+      "Cidades inteligentes"
+    ],
+    "hobbies": [
+      "Voluntariado",
+      "Culinária"
+    ]
+  },
+  {
+    "id": 39,
+    "nome": "Marina Souza",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Marina%20Souza",
+    "cargo": "Cientista de Dados",
+    "resumo": "Cientista de Dados com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": [
+      "Python",
+      "TensorFlow",
+      "Pandas",
+      "SQL",
+      "Docker"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Nubank",
+        "cargo": "Cientista de Dados",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Magazine Luiza",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "SENAI",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Engineer",
+      "AWS Certified Solutions Architect"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Futuro do trabalho",
+      "Cidades inteligentes"
+    ],
+    "hobbies": [
+      "Música",
+      "Yoga"
+    ]
+  },
+  {
+    "id": 40,
+    "nome": "Nicolas Almeida",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Nicolas%20Almeida",
+    "cargo": "Desenvolvedor(a) Front-end",
+    "resumo": "Desenvolvedor(a) Front-end com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Java",
+      "Spring Boot",
+      "Kubernetes",
+      "Azure",
+      "Microservices"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Gestão do tempo"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Itaú",
+        "cargo": "Desenvolvedor(a) Front-end",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Loft",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "Mackenzie",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Azure AI Fundamentals",
+      "Scrum Master"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      },
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Saúde digital",
+      "Cidades inteligentes",
+      "Futuro do trabalho"
+    ],
+    "hobbies": [
+      "Xadrez",
+      "Corrida"
+    ]
+  },
+  {
+    "id": 41,
+    "nome": "Olivia Oliveira",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Olivia%20Oliveira",
+    "cargo": "Desenvolvedor(a) Back-end",
+    "resumo": "Desenvolvedor(a) Back-end com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Go",
+      "PostgreSQL",
+      "gRPC",
+      "AWS Lambda",
+      "Terraform"
+    ],
+    "softSkills": [
+      "Gestão do tempo",
+      "Adaptabilidade",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Magazine Luiza",
+        "cargo": "Desenvolvedor(a) Back-end",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Stone",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Computação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified Solutions Architect",
+      "Design Thinking Expert"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      },
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Saúde digital",
+      "IA ética",
+      "Educação"
+    ],
+    "hobbies": [
+      "Yoga",
+      "Voluntariado"
+    ]
+  },
+  {
+    "id": 42,
+    "nome": "Paulo Costa",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Paulo%20Costa",
+    "cargo": "Analista de Segurança",
+    "resumo": "Analista de Segurança com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Produto",
+    "habilidadesTecnicas": [
+      "Flutter",
+      "Dart",
+      "Supabase",
+      "CI/CD",
+      "Jest"
+    ],
+    "softSkills": [
+      "Gestão do tempo",
+      "Colaboração"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Loft",
+        "cargo": "Analista de Segurança",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Wildlife",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "PUC-SP",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Master",
+      "Google Data Engineer"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Cidades inteligentes",
+      "IA ética",
+      "Educação"
+    ],
+    "hobbies": [
+      "Xadrez",
+      "Música"
+    ]
+  },
+  {
+    "id": 43,
+    "nome": "Queila Rocha",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Queila%20Rocha",
+    "cargo": "Especialista em IA",
+    "resumo": "Especialista em IA com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Curitiba/PR",
+    "area": "Inovação",
+    "habilidadesTecnicas": [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "Node.js",
+      "GraphQL"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Comunicação",
+      "Gestão do tempo"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Stone",
+        "cargo": "Especialista em IA",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Sebrae",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Design Thinking Expert",
+      "Azure AI Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      },
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Cidades inteligentes",
+      "IA ética",
+      "Sustentabilidade"
+    ],
+    "hobbies": [
+      "Voluntariado",
+      "Música"
+    ]
+  },
+  {
+    "id": 44,
+    "nome": "Rafael Fernandes",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Rafael%20Fernandes",
+    "cargo": "Arquiteto(a) Cloud",
+    "resumo": "Arquiteto(a) Cloud com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": [
+      "Vue.js",
+      "JavaScript",
+      "Sass",
+      "Firebase",
+      "Figma"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Gestão do tempo",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Wildlife",
+        "cargo": "Arquiteto(a) Cloud",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "XP Inc.",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "SENAI",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Engineer",
+      "AWS Certified Solutions Architect"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      },
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "IA ética",
+      "Cidades inteligentes"
+    ],
+    "hobbies": [
+      "Xadrez",
+      "Voluntariado"
+    ]
+  },
+  {
+    "id": 45,
+    "nome": "Sofia Moraes",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Sofia%20Moraes",
+    "cargo": "Tech Lead",
+    "resumo": "Tech Lead com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Brasília/DF",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Python",
+      "TensorFlow",
+      "Pandas",
+      "SQL",
+      "Docker"
+    ],
+    "softSkills": [
+      "Gestão do tempo",
+      "Colaboração",
+      "Liderança",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Sebrae",
+        "cargo": "Tech Lead",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Nubank",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "Mackenzie",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Azure AI Fundamentals",
+      "Scrum Master"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "Cidades inteligentes",
+      "Saúde digital"
+    ],
+    "hobbies": [
+      "Fotografia",
+      "Xadrez"
+    ]
+  },
+  {
+    "id": 46,
+    "nome": "Tiago Barbosa",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Tiago%20Barbosa",
+    "cargo": "Engenheiro(a) de Software",
+    "resumo": "Engenheiro(a) de Software com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Recife/PE",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Java",
+      "Spring Boot",
+      "Kubernetes",
+      "Azure",
+      "Microservices"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Liderança",
+      "Pensamento crítico",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "XP Inc.",
+        "cargo": "Engenheiro(a) de Software",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Itaú",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Computação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified Solutions Architect",
+      "Design Thinking Expert"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      },
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Cidades inteligentes",
+      "IA ética",
+      "Saúde digital"
+    ],
+    "hobbies": [
+      "Fotografia",
+      "Culinária"
+    ]
+  },
+  {
+    "id": 47,
+    "nome": "Ursula Carvalho",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Ursula%20Carvalho",
+    "cargo": "UX/UI Designer",
+    "resumo": "UX/UI Designer com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Salvador/BA",
+    "area": "Produto",
+    "habilidadesTecnicas": [
+      "Go",
+      "PostgreSQL",
+      "gRPC",
+      "AWS Lambda",
+      "Terraform"
+    ],
+    "softSkills": [
+      "Colaboração",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Nubank",
+        "cargo": "UX/UI Designer",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Magazine Luiza",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "PUC-SP",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Master",
+      "Google Data Engineer"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      },
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "Saúde digital"
+    ],
+    "hobbies": [
+      "Culinária",
+      "Fotografia"
+    ]
+  },
+  {
+    "id": 48,
+    "nome": "Vitor Dias",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Vitor%20Dias",
+    "cargo": "Product Manager",
+    "resumo": "Product Manager com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Florianópolis/SC",
+    "area": "Inovação",
+    "habilidadesTecnicas": [
+      "Flutter",
+      "Dart",
+      "Supabase",
+      "CI/CD",
+      "Jest"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Resiliência",
+      "Comunicação",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Itaú",
+        "cargo": "Product Manager",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Loft",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Design Thinking Expert",
+      "Azure AI Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Cidades inteligentes",
+      "Futuro do trabalho",
+      "Sustentabilidade"
+    ],
+    "hobbies": [
+      "Xadrez",
+      "Corrida"
+    ]
+  },
+  {
+    "id": 49,
+    "nome": "Willian Esteves",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Willian%20Esteves",
+    "cargo": "Cientista de Dados",
+    "resumo": "Cientista de Dados com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "Node.js",
+      "GraphQL"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Liderança",
+      "Gestão do tempo"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Magazine Luiza",
+        "cargo": "Cientista de Dados",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Stone",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "SENAI",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Engineer",
+      "AWS Certified Solutions Architect"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      },
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Futuro do trabalho",
+      "Saúde digital",
+      "IA ética"
+    ],
+    "hobbies": [
+      "Voluntariado",
+      "Música"
+    ]
+  },
+  {
+    "id": 50,
+    "nome": "Ximena Farias",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Ximena%20Farias",
+    "cargo": "Desenvolvedor(a) Front-end",
+    "resumo": "Desenvolvedor(a) Front-end com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Vue.js",
+      "JavaScript",
+      "Sass",
+      "Firebase",
+      "Figma"
+    ],
+    "softSkills": [
+      "Colaboração",
+      "Pensamento crítico",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Loft",
+        "cargo": "Desenvolvedor(a) Front-end",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Wildlife",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "Mackenzie",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Azure AI Fundamentals",
+      "Scrum Master"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      },
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Futuro do trabalho",
+      "Sustentabilidade"
+    ],
+    "hobbies": [
+      "Culinária",
+      "Ciclismo"
+    ]
+  },
+  {
+    "id": 51,
+    "nome": "Yago Gomes",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Yago%20Gomes",
+    "cargo": "Desenvolvedor(a) Back-end",
+    "resumo": "Desenvolvedor(a) Back-end com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Python",
+      "TensorFlow",
+      "Pandas",
+      "SQL",
+      "Docker"
+    ],
+    "softSkills": [
+      "Colaboração",
+      "Adaptabilidade",
+      "Pensamento crítico",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Stone",
+        "cargo": "Desenvolvedor(a) Back-end",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Sebrae",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Computação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified Solutions Architect",
+      "Design Thinking Expert"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Saúde digital",
+      "Futuro do trabalho"
+    ],
+    "hobbies": [
+      "Voluntariado",
+      "Fotografia"
+    ]
+  },
+  {
+    "id": 52,
+    "nome": "Zuleica Henrique",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Zuleica%20Henrique",
+    "cargo": "Analista de Segurança",
+    "resumo": "Analista de Segurança com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Produto",
+    "habilidadesTecnicas": [
+      "Java",
+      "Spring Boot",
+      "Kubernetes",
+      "Azure",
+      "Microservices"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Comunicação",
+      "Colaboração"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Wildlife",
+        "cargo": "Analista de Segurança",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "XP Inc.",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "PUC-SP",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Master",
+      "Google Data Engineer"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      },
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Saúde digital",
+      "Sustentabilidade"
+    ],
+    "hobbies": [
+      "Xadrez",
+      "Fotografia"
+    ]
+  },
+  {
+    "id": 53,
+    "nome": "Ana Ibiapina",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Ana%20Ibiapina",
+    "cargo": "Especialista em IA",
+    "resumo": "Especialista em IA com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Curitiba/PR",
+    "area": "Inovação",
+    "habilidadesTecnicas": [
+      "Go",
+      "PostgreSQL",
+      "gRPC",
+      "AWS Lambda",
+      "Terraform"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Resiliência",
+      "Adaptabilidade",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Sebrae",
+        "cargo": "Especialista em IA",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Nubank",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Design Thinking Expert",
+      "Azure AI Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      },
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "Saúde digital"
+    ],
+    "hobbies": [
+      "Yoga",
+      "Ciclismo"
+    ]
+  },
+  {
+    "id": 54,
+    "nome": "Bruno Jesus",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Bruno%20Jesus",
+    "cargo": "Arquiteto(a) Cloud",
+    "resumo": "Arquiteto(a) Cloud com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": [
+      "Flutter",
+      "Dart",
+      "Supabase",
+      "CI/CD",
+      "Jest"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Colaboração"
+    ],
+    "experiencias": [
+      {
+        "empresa": "XP Inc.",
+        "cargo": "Arquiteto(a) Cloud",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Itaú",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "SENAI",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Engineer",
+      "AWS Certified Solutions Architect"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Cidades inteligentes",
+      "Futuro do trabalho"
+    ],
+    "hobbies": [
+      "Fotografia",
+      "Yoga"
+    ]
+  },
+  {
+    "id": 55,
+    "nome": "Carlos Lima",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Carlos%20Lima",
+    "cargo": "Tech Lead",
+    "resumo": "Tech Lead com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Brasília/DF",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "Node.js",
+      "GraphQL"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Colaboração",
+      "Adaptabilidade",
+      "Gestão do tempo"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Nubank",
+        "cargo": "Tech Lead",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Magazine Luiza",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "Mackenzie",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Azure AI Fundamentals",
+      "Scrum Master"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      },
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "IA ética",
+      "Futuro do trabalho",
+      "Educação"
+    ],
+    "hobbies": [
+      "Música"
+    ]
+  },
+  {
+    "id": 56,
+    "nome": "Daniela Macedo",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Daniela%20Macedo",
+    "cargo": "Engenheiro(a) de Software",
+    "resumo": "Engenheiro(a) de Software com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Recife/PE",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Vue.js",
+      "JavaScript",
+      "Sass",
+      "Firebase",
+      "Figma"
+    ],
+    "softSkills": [
+      "Gestão do tempo",
+      "Resiliência",
+      "Comunicação",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Itaú",
+        "cargo": "Engenheiro(a) de Software",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Loft",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Computação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified Solutions Architect",
+      "Design Thinking Expert"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      },
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Cidades inteligentes",
+      "Saúde digital"
+    ],
+    "hobbies": [
+      "Xadrez",
+      "Culinária"
+    ]
+  },
+  {
+    "id": 57,
+    "nome": "Eduardo Novaes",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Eduardo%20Novaes",
+    "cargo": "UX/UI Designer",
+    "resumo": "UX/UI Designer com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Salvador/BA",
+    "area": "Produto",
+    "habilidadesTecnicas": [
+      "Python",
+      "TensorFlow",
+      "Pandas",
+      "SQL",
+      "Docker"
+    ],
+    "softSkills": [
+      "Colaboração",
+      "Gestão do tempo",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Magazine Luiza",
+        "cargo": "UX/UI Designer",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Stone",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "PUC-SP",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Master",
+      "Google Data Engineer"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Saúde digital",
+      "Futuro do trabalho",
+      "Sustentabilidade"
+    ],
+    "hobbies": [
+      "Xadrez",
+      "Yoga"
+    ]
+  },
+  {
+    "id": 58,
+    "nome": "Fernanda Silva",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Fernanda%20Silva",
+    "cargo": "Product Manager",
+    "resumo": "Product Manager com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Florianópolis/SC",
+    "area": "Inovação",
+    "habilidadesTecnicas": [
+      "Java",
+      "Spring Boot",
+      "Kubernetes",
+      "Azure",
+      "Microservices"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Comunicação",
+      "Pensamento crítico",
+      "Colaboração"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Loft",
+        "cargo": "Product Manager",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Wildlife",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Design Thinking Expert",
+      "Azure AI Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      },
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Cidades inteligentes",
+      "Saúde digital",
+      "Futuro do trabalho"
+    ],
+    "hobbies": [
+      "Culinária",
+      "Ciclismo"
+    ]
+  },
+  {
+    "id": 59,
+    "nome": "Guilherme Souza",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Guilherme%20Souza",
+    "cargo": "Cientista de Dados",
+    "resumo": "Cientista de Dados com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": [
+      "Go",
+      "PostgreSQL",
+      "gRPC",
+      "AWS Lambda",
+      "Terraform"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Criatividade",
+      "Gestão do tempo",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Stone",
+        "cargo": "Cientista de Dados",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "Sebrae",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "SENAI",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Engineer",
+      "AWS Certified Solutions Architect"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      },
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Cidades inteligentes",
+      "Futuro do trabalho"
+    ],
+    "hobbies": [
+      "Culinária",
+      "Fotografia"
+    ]
+  },
+  {
+    "id": 60,
+    "nome": "Helena Almeida",
+    "foto": "https://api.dicebear.com/9.x/avataaars/svg?seed=Helena%20Almeida",
+    "cargo": "Desenvolvedor(a) Front-end",
+    "resumo": "Desenvolvedor(a) Front-end com foco em soluções que unam impacto social e inovação para o futuro do trabalho.",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Flutter",
+      "Dart",
+      "Supabase",
+      "CI/CD",
+      "Jest"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Pensamento crítico",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Wildlife",
+        "cargo": "Desenvolvedor(a) Front-end",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Liderança de squads multidisciplinares e construção de produtos centrados em pessoas."
+      },
+      {
+        "empresa": "XP Inc.",
+        "cargo": "Consultor(a) Especialista",
+        "inicio": "2019-03",
+        "fim": "2021-12",
+        "descricao": "Implementação de boas práticas de colaboração remota e automação de fluxos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "Mackenzie",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Colab Futuro",
+        "link": "https://example.com/projeto-colab",
+        "descricao": "Marketplace de competências para projetos de impacto socioambiental."
+      },
+      {
+        "titulo": "Mentoria Talentos 4.0",
+        "link": "https://example.com/mentoria40",
+        "descricao": "Programa de apoio à recolocação com foco em soft skills."
+      }
+    ],
+    "certificacoes": [
+      "Azure AI Fundamentals",
+      "Scrum Master"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      },
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "IA ética",
+      "Futuro do trabalho"
+    ],
+    "hobbies": [
+      "Voluntariado",
+      "Fotografia"
+    ]
+  }
+]
